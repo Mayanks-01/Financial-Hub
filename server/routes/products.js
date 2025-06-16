@@ -7,23 +7,23 @@ const router = express.Router();
 // Sample product data (replace with database in production)
 const products = {
   'credit-card': [
-    { id: 1, name: 'SBI Credit Card', features: '5% cashback, 0% forex', eligibility: 'Income > 5LPA', email: 'sharmamayank966@gmail.com' },
-    { id: 2, name: 'HDFC Credit Card', features: '10x rewards, low interest', eligibility: 'Income > 6LPA', email: 'sharmamayank966@gmail.com' },
+    { id: 1, name: 'SBI Credit Card', features: '5% cashback, 0% forex', eligibility: 'Income > 5LPA', email: 'xyz@gmail.com' },
+    { id: 2, name: 'HDFC Credit Card', features: '10x rewards, low interest', eligibility: 'Income > 6LPA', email: 'xyz@gmail.com' },
   ],
   'personal-loan': [
-    { id: 3, name: 'ICICI Personal Loan', features: 'Low interest, fast approval', eligibility: 'Income > 3LPA', email: 'sharmamayank966@gmail.com' },
+    { id: 3, name: 'ICICI Personal Loan', features: 'Low interest, fast approval', eligibility: 'Income > 3LPA', email: 'xyz@gmail.com' },
   ],
   'business-loan': [
-    { id: 4, name: 'Axis Business Loan', features: 'High limit, flexible tenure', eligibility: 'Business turnover > 50L', email: 'sharmamayank966@gmail.com' },
+    { id: 4, name: 'Axis Business Loan', features: 'High limit, flexible tenure', eligibility: 'Business turnover > 50L', email: 'xyz@gmail.com' },
   ],
   'savings-account': [
-    { id: 5, name: 'Kotak Savings', features: 'High interest, zero balance', eligibility: 'Resident Indian', email:'sharmamayank966@gmail.com' },
+    { id: 5, name: 'Kotak Savings', features: 'High interest, zero balance', eligibility: 'Resident Indian', email:'xyz@gmail.com' },
   ],
   'demat-account': [
-    { id: 6, name: 'Zerodha Demat', features: 'Low charges, easy trading', eligibility: 'PAN card', email: 'sharmamayank966@gmail.com'},
+    { id: 6, name: 'Zerodha Demat', features: 'Low charges, easy trading', eligibility: 'PAN card', email: 'xyz@gmail.com'},
   ],
   'investment-funds': [
-    { id: 7, name: 'SBI Mutual Fund', features: 'Diversified, high returns', eligibility: 'Min 5000 INR', email: 'sharmamayank966@gmail.com' },
+    { id: 7, name: 'SBI Mutual Fund', features: 'Diversified, high returns', eligibility: 'Min 5000 INR', email: 'xyz@gmail.com' },
   ],
 };
 
