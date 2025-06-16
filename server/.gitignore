@@ -1,0 +1,7 @@
+# These are ESSENTIAL
+.env
+.env.local
+node_modules/
+build/
+dist/.env
+server/.env
