@@ -191,16 +191,6 @@ router.put('/profile', async (req, res) => {
   }
 });
 
-// Google OAuth routes
-// router.get('/google', passport.authenticate('google', { scope: ['profile', 'email'] }));
 
-// router.get(
-//   '/google/callback',
-//   passport.authenticate('google', { session: false }),
-//   (req, res) => {
-//     const { token, user } = req.user;
-//     res.redirect(`http://localhost:3000/auth/google/callback?token=${token}&name=${encodeURIComponent(user.name)}`);
-//   }
-// );
 
 module.exports = router;
